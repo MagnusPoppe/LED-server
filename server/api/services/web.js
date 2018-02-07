@@ -13,10 +13,10 @@ module.exports.Socket = class Socket {
 
       ws.on('message', message => this.observer.notifyMessage({ ...this.decrypt(message) }))
       ws.on('close',  message => {
-        this.observer.notifyDisconnected({ id: ws.id })
+        this.observer.notifyDisconnected()
         this.client = {}
       })
-      ws.on('error', msg => { console.log(msg) })
+      ws.on('error', err => { console.log(err) })
     })
   }
  

@@ -1,0 +1,44 @@
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# intelliJ
+.idea
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# Benchmarking
+benchmarks/graphs
+
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+
+# Coveralls
+coverage

@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "express": "~4.15.5",
+    "nodemon": "^1.14.12",
+    "ws": "^4.0.0"
+  }
+}

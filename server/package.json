@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon node app.js"
+    "start": "nodemon node src/index.js"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
+    "dotenv": "^5.0.0",
     "express": "~4.15.5",
     "nodemon": "^1.14.12",
     "ws": "^4.0.0"
